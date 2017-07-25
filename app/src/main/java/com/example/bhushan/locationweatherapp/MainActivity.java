@@ -120,7 +120,7 @@ public class MainActivity extends AppCompatActivity implements LocationListener 
         @Override
         protected void onPreExecute() {
             super.onPreExecute();
-            pd.setTitle("Please wait...");//Progress Dialogue Message
+            pd.setTitle("Please wait....");//Progress Dialogue Message
             pd.show();
         }
 
